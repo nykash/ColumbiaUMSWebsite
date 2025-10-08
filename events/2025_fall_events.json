@@ -26,8 +26,8 @@
   {
     "date": "Oct 8",
     "speaker": "Fan Zhou",  
-    "title": "TBD",
-    "abstract": "TBD"
+    "title": "Representation theory of symmetric groups versus symmetric functions",
+    "abstract": "It is a well-known fact that the Grothendieck ring of complex modules over symmetric groups is isomorphic to the ring of symmetric functions; in this talk we will begin by sketching a proof of this fact. Then I will point out the Jacobi-Trudi phenomenon, and introduce the degenerate affine Hecke algebra of rank 1 to realize this as a non-semisimple phenomenon. I will assume some basic familiarity with the representation theory of finite groups."
   },
   {
     "date": "Oct 15",
