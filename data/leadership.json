@@ -1,0 +1,40 @@
+[
+
+    {
+        "title": "President",
+        "name": "Joseph McGill",
+        "image": "",
+        "bio":""
+    },
+    {
+        "title": "Vice President",
+        "name": "Sabrina Yu",
+        "image": "resources/images/sabrina.jpeg",
+        "bio":"I'm Sabrina, a sophomore studying Math and Computer Science in Columbia College. I love all math that contains pretty pictures (i.e geometry and topology)!!!"
+    },
+    {
+        "title": "Treasurer",
+        "name": "Andrew Glover",
+        "image": "resources/images/andrew.PNG",
+        "bio":"Andrew is a sophomore in Columbia College studying Math, though complex analysis is making him reconsider. Oftentimes, he can be found in a math classroom at 4 am, furiously scribbling on the chalkboards as he sips on a coffee from JJs. He speds his free time playing the piano, destroying his friends in Super Smash Bros, and going on hikes whenever he is able to."
+    },
+    {
+        "title": "Web Master",
+        "name": "Nikash Das",
+        "image": "resources/images/nikash.png",
+        "bio":"Hi! I'm Nikash from New York. When I'm not in front of a blackboard, you can find me playing volleyball, programming, or making bracelets."
+    },
+
+    {
+        "title": "Social Media Manager",
+        "name": "Skylar Tien",
+        "image": "",
+        "bio":""
+    },
+    {
+        "title": "Social Media Manager",
+        "name": "Will Betts",
+        "image": "resources/images/will.jpg",
+        "bio":"I'm William Betts, born and raised in Taipei Taiwan. In my free time I love playing baord games, watching movies, and doing anything active."
+    }
+]

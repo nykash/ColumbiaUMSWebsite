@@ -1,0 +1,62 @@
+[
+  {
+    "date": "January 31",
+    "speaker": "Social Event",
+    "title": "",
+    "abstract": ""
+  },
+  {
+    "date": "February 7",
+    "speaker": "Gyujin Oh",
+    "title": "Arithmetic groups vs. mapping class groups",
+    "abstract": "Integer-coefficient matrix groups, like SL_2(Z) (referred to as arithmetic groups), play crucial roles in number theory, representation theory, and arithmetic algebraic geometry. On the flip side, mapping class groups are key players in low-dimensional topology and Teichmuller theory. Despite their distinct origins, these groups share significant similarities. This talk will explore these analogies."
+  },
+  {
+    "date": "February 14",
+    "speaker": "Peter Woit",
+    "title": "Spinors and Twistors",
+    "abstract": "Instead of using vectors to do geometry, in any dimension one can use spinors, which in some sense are \"square roots\" of vectors. In four dimensions these have unusual properties, crucial for understanding four-manifolds in Riemannian geometry, and special relativity in physics. Also in four dimensions, pairs of spinors occur as twistors, with the twistor geometry explaining how conformal symmetry works in four dimensions. I'll try and explain both the mathematics and some of the implications for physics."
+  },
+  {
+    "date": "February 21",
+    "speaker": "Soren Galatius",
+    "title": "Graph complexes and their applications",
+    "abstract": "Graph complexes are fairly elementary to define. Nevertheless, there are many elementary-sounding questions about them which we cannot answer yet. Since they were introduced in the 1990s, they have made appearances in several seemingly rather different areas of mathematics. I will explain the definition and some applications of these intriguing objects."
+  },
+  {
+    "date": "February 28",
+    "speaker": "Alan Zhao",
+    "title": "Hilbert's Tenth Problem",
+    "abstract": "Yuri Matiyasevich's book \"Hilbert's Tenth Problem\" explains the negative resolution of Hilbert's question of whether or not a general algorithm to solve Diophantine equations. The book produces surprise after surprise in just its first three chapters, and in just its fourth chapter constructs an \"NP-hard\" Diophantine equation: the solvability of any Diophantine equation reduces to this one. This talk will highlight these results, and moreover the completely elementary nature of the proofs involved."
+  },
+  {
+    "date": "March 6",
+    "speaker": "Alex Scheffelin",
+    "title": "Relations between geometry and algebra, or an introduction to algebraic geometry",
+    "abstract": "Algebraic geometry begins with the observation that algebra and geometry are related. As a child one learns how to graph certain plane curves, equations involving two variables y and x. One sees how the degree of the polynomial determines the general shape of the polynomial, and how various coefficients further control that shape. Here we see the most elementary way in which algebra (the equation) corresponds to geometry (the graph). We will introduce the geometric objects of study, algebraic varieties in a limited fashion, and then we will take some time to compare ring theoretic properties of the associated algebra to geometric properties of the variety. Prerequisites are a first course in ring theory, and some knowledge of the basics of topology."
+  },
+  {
+    "date": "March 20",
+    "speaker": "Milind Hegde",
+    "title": "Percolation, conformal invariance, and more",
+    "abstract": "Percolation is one of the most classical and simplest models of probability: fix p in (0,1), look at the integer lattice in d dimensions, and keep every edge with probability p and remove it with probability 1-p (independently across all the edges). From this simple definition arise a multitude of interesting phenomena, including: zero-one laws and a phase transition in the appearance of an infinite connected component, scale-invariance and large scale structure, exceptional times where things which usually occur with probability zero nevertheless can be seen, and conformal invariance. We will introduce and discuss these phenomena, and will not assume any background in formal probability theory."
+  },
+  {
+    "date": "April 3",
+    "speaker": "Jingbo Wan",
+    "title": "Geometry of Initial Data Set and Properties of Spacetime",
+    "abstract": "This talk serves as a brief introduction to two key aspects of Mathematical General Relativity: the Geometry of Initial Data Set and the Properties of Spacetime. We will first introduce some fundamental concepts commonly used by mathematicians and physicists in discussing General Relativity, such as causality, globally hyperbolicity, and energy conditions. Furthermore, we will explore how General Relativity can be approached as an evolutionary problem, or Cauchy problem. Our focus will be on highlighting how the geometry of the initial data set influences the properties of spacetime. Specifically, Penrose-Hawking singularity theorems can be understood within this framework. In these theorems, the basic notion of mean curvature from differential geometry plays an important role."
+  },
+  {
+    "date": "April 10",
+    "speaker": "Morena Porzio",
+    "title": "Riemann–Roch Theorem for Graphs and Specialization of Divisors from Curves",
+    "abstract": "The Riemann-Roch Theorem is a fundamental result in algebraic geometry, more precisely in the theory of algebraic curves. After recalling the statement in the usual context, we will discuss the analogous one in the language of graph theory and its implication for the so-called dollar game. We will conclude by describing how these two settings are related via the specialization map: in particular we will see how to associate a finite graph to a curve."
+  },
+  {
+    "date": "April 17",
+    "speaker": "Henry Segerman",
+    "title": "Artistic mathematics: truth and beauty",
+    "abstract": "I'll talk about my work in mathematical visualization: making accurate, effective, and beautiful pictures, models, and experiences of mathematical concepts. I'll discuss what it is that makes a visualization compelling, and show many examples in the medium of 3D printing, as well as some work in virtual reality and spherical video. I'll also discuss my experiences in teaching a project-based class on 3D printing for mathematics students."
+  }
+]

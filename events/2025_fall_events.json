@@ -1,0 +1,74 @@
+[
+  {
+    "date": "Sep 10",
+    "speaker": "Carlos Alvarado",
+    "title": "Vector Fields on Spheres",
+    "abstract": "We define what a vector field on a sphere is and then we discuss the question of how many linearly independent vector fields we can find."
+  },
+  {
+    "date": "Sep 17",
+    "speaker": "Dr. Yoonjoo Kim",
+    "title": "Limit of abelian varieties",
+    "abstract": "A complex torus is a 2n-dimensional torus (S^1)^2n equipped with an appropriate complex structure. An abelian variety is a special type of complex torus, and it has been an important object since its introduction to algebraic geometry. In this talk, we define these objects more properly and study how they degenerate into a possibly \"singular\" object in algebraic geometry."
+  },
+  {
+    "date": "Sep 24",
+    "speaker": "Amal Mattoo",
+    "title": "Moduli Spaces and Stacks",
+    "abstract": "In algebraic geometry, a key method for studying families of objects is to find a space that parameterizes them in a geometrically meaningful way. We will explore this fundamental concept of a \"moduli space\" using simple examples from elementary geometry, also mentioning interesting problems that can be solved with such techniques. Then we will see some technical challenges that arise and give intuition for how the abstract notion of \"stacks\" can address them."
+  },
+  {
+    "date": "Oct 1",
+    "speaker": "Alex Scheffelin",
+    "title": "Basic Algebraic Geometry and Plane Geometry",
+    "abstract": "As an introduction to the classical algebraic geometry from which modern algebraic geometry has evolved from, we will illustrate several classical theorems about plane curves."
+  },
+  {
+    "date": "Oct 8",
+    "speaker": "Fan Zhou",  
+    "title": "TBD",
+    "abstract": "TBD"
+  },
+  {
+    "date": "Oct 15",
+    "speaker": "Johan de Jong",
+    "title": "TBD",
+    "abstract": "TBD"
+  },
+  {
+    "date": "Oct 22",
+    "speaker": "N/A",
+    "title": "TBD",
+    "abstract": "TBD"
+  },
+  {
+    "date": "Oct 29",
+    "speaker": "Francesco Lin",
+    "title": "TBD",
+    "abstract": "TBD"
+  },
+  {
+    "date": "Nov 5",
+    "speaker": "James Hotchkiss",
+    "title": "TBD",
+    "abstract": "TBD"
+  },
+  {
+    "date": "Nov 12",
+    "speaker": "Vidhu Adhihetty",
+    "title": "TBD",
+    "abstract": "TBD"
+  },
+  {
+    "date": "Nov 19",
+    "speaker": "Robert Bryant",
+    "title": "TBD",
+    "abstract": "TBD"
+  },
+  {
+    "date": "Dec 3",
+    "speaker": "",
+    "title": "Social Event",
+    "abstract": ""
+  }
+]

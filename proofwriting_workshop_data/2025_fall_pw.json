@@ -1,0 +1,27 @@
+{
+    "title": "If you're taking your first proof-based math course or just want to improve your proof-writing skills, sign up for our Introduction to Proofs workshop!",
+    "material": [
+        {
+            "week": 2,
+            "date": "September 19, 2025",
+            "time": "1:00 PM - 3:00 PM",
+            "pdf_link": "resources/pdfs/fall_2025/Proof_Workshop_Handout_Week_2.pdf",
+            "title": "Contradiction and Counterexamples"
+
+        },
+        {
+            "week": 3,
+            "date": "September 26, 2025",
+            "time": "1:00 PM - 3:00 PM",
+            "pdf_link": "resources/pdfs/fall_2025/Proof_Workshop_Handout_Week_3-2.pdf",
+            "title": "Proof by Induction"
+        },
+        {
+            "week": 4,
+            "date": "October 3, 2025",
+            "time": "1:00 PM - 3:00 PM",
+            "pdf_link": "resources/pdfs/fall_2025/Proof_Workshop_Handout_Week_4.pdf",
+            "title": "Functions: Basic Definitions and Exercises"
+        }
+    ]
+}

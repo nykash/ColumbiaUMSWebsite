@@ -1,0 +1,62 @@
+[
+  {
+    "date": "June 27",
+    "speaker": "Zachary Lihn",
+    "title": "Introduction",
+    "abstract": "We will first introduce Summer UMS and then decide on the logistics for the next weeks. We will go over some potential textbooks we could cover and then pick one by vote. Every member will then have the opportunity to sign up to give a talk."
+  },
+  {
+    "date": "July 4",
+    "speaker": "Holiday",
+    "title": "",
+    "abstract": "No talk due to holiday."
+  },
+  {
+    "date": "July 11",
+    "speaker": "Zachary Lihn",
+    "title": "The Fundamentals of Linear Algebra",
+    "abstract": "According to William Stein, \"Mathematics is the art of reducing any problem to linear algebra.\" We will start by reviewing the standard definitions and theorems of introductory linear algebra, such as linear spaces and maps, bases, eigenvectors, subspaces, and direct sums and products. If time permits, we will end with a brief discussion of the dual space and its connection with hyperplanes. Throughout, I will give many examples of vector spaces from geometry, analysis, algebra, and more."
+  },
+  {
+    "date": "July 18",
+    "speaker": "Shiv Yajnik",
+    "title": "Introducing Multilinear Maps and Tensor Products",
+    "abstract": "So far in linear algebra, we have dealt with 1-linear maps between vector spaces. Last week, we introduced the notion of the dual space; as we saw, the basis of the dual space are the maps that identify one of the coordinates. These are examples of multilinear maps, which we will learn more about later as elements of exterior powers of vector spaces. Now we will introduce tensor products; these are fundamental to multilinear algebra because tensor products are an important way in which we can talk about the multi-linearity of maps. They appear as fundamental objects in basically any geometrically-related subject one can think of in mathematics, including algebraic geometry (and consequently algebraic number theory because of the symmetry with algebraic geometry), algebraic topology, functional analysis, differential geometry, and more. Tensor maps and tensor products also appear in many areas of physics, for example rigid body dynamics, quantum mechanics, and general relativity. My talk will essentially cover the rest of Chapter 1 in the Winitzki text. First, I will do a quick review on the dual space. Then, I will spend most of the talk on the construction of the tensor product between two vector spaces. Finally, I will introduce some of the immediate consequences and theorems, and, if time allows, define the exterior product."
+  },
+  {
+    "date": "July 25",
+    "speaker": "Ethan Lipson",
+    "title": "An Example-Driven Overview of Tensor Products",
+    "abstract": "Last week, we had an abstract introduction to the tensor > product through the universal property definition. Next, we’ll be seeing > some examples of tensor products, elements of these spaces, and operations > we can perform on them. We’ll also be going over complexification, the > Kronecker product, and tensors as multilinear maps."
+  },
+  {
+    "date": "August 1",
+    "speaker": "LIsa Faulkner Valiente",
+    "title": "Exterior Products and Area",
+    "abstract": "In this lecture we will introduce a subspace of the tensor product called the exterior product. We will focus on how exterior products can be used to calculate/define determinants and signed areas of parallelotopes."
+  },
+  {
+    "date": "August 8",
+    "speaker": "Aman Choudhri",
+    "title": "Multilinear Actions and Trace",
+    "abstract": "In this lecture we will further develop the relationship between linear maps and the exterior power, applying this machinery to explore the notoriously unintuitive concept of the trace of a linear map. Bring a pencil and paper! We'll be proving some of these results for ourselves."
+  },
+  {
+    "date": "August 15",
+    "speaker": "Noah Bergam",
+    "title": "The Duality of Trace and Determinant",
+    "abstract": "The exterior product and the k-linear extension (introduced in the previous two presentations) provide us with a very elegant way to relate the trace and determinant (and envision some of the other matrix invariants that lie \"in between'' them). In this presentation, we further explore the relationship between trace and determinant through the lens of two famous theorems: Liouville's identity and Jacobi's formula. We sketch the proofs of both results, following Winitzki §4.5."
+  },
+  {
+    "date": "August 22",
+    "speaker": "Kayla Pham",
+    "title": "Applications of Advanced Linear Algebra in Quantum Mechanics",
+    "abstract": "In a culmination of the fundamentals developed through the lecture series, we will discuss the reduction of physical chemistry problems to linear algebra. In this lecture, we’ll discuss how linear algebra can be applied to light-matter interactions and even provide a theoretical understanding of how these interactions occur. Topics that will be covered, in both a theoretical and mathematical framework, will include, but are not limited to, transfer matrices and the infamous Schrödinger’s equation."
+  },
+  {
+    "date": "August 29",
+    "speaker": "Aiden Sagerman",
+    "title": "",
+    "abstract": ""
+  }
+]
