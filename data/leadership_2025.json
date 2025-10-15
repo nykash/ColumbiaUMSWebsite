@@ -3,8 +3,8 @@
     {
         "title": "President",
         "name": "Joseph McGill",
-        "image": "",
-        "bio":""
+        "image": "resources/images/joseph.JPG",
+        "bio":"Hello, my name is Joseph McGill and I'm a junior in CC majoring in Math and Religious Studies. I love geometry, diffreential maps, and coffee. Outside of the math department you can find me cycling with the Columbia team and working through a stack of religious readings."
     },
     {
         "title": "Vice President",
@@ -16,7 +16,7 @@
         "title": "Treasurer",
         "name": "Andrew Glover",
         "image": "resources/images/andrew.PNG",
-        "bio":"Andrew is a sophomore in Columbia College studying Math, though complex analysis is making him reconsider. Oftentimes, he can be found in a math classroom at 4 am, furiously scribbling on the chalkboards as he sips on a coffee from JJs. He spends his free time playing the piano, destroying his friends in Super Smash Bros, and going on hikes whenever he is able to."
+        "bio":"Andrew is a sophomore in Columbia College studying Math, though complex analysis is making him reconsider. He spends his free time playing the piano, destroying his friends in Super Smash Bros, and going on hikes whenever he is able to."
     },
     {
         "title": "Web Master",
@@ -28,8 +28,8 @@
     {
         "title": "Social Media Manager",
         "name": "Skylar Tien",
-        "image": "",
-        "bio":""
+        "image": "resources/images/skylar.JPG",
+        "bio":"Hi I'm Skylar Tian, a freshman in CC who loves exploring both pure and applied mathematics. I'm especially interested in Fourier analysis and how math connects to music and physics. I also enjoy sharing the beauty of problem-solving with others!"
     },
     {
         "title": "Social Media Manager",
