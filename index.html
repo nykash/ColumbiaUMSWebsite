@@ -29,7 +29,12 @@
                     </div>
                 </li>
                 <li><a href="#proofwriting">Proof Writing Workshop</a></li>
-                <li><a href="#leadership">Leadership</a></li>
+                <li class="dropdown">
+                    <a href="#leadership">Leadership</a>
+                    <div class="dropdown-content" id="leadership-dropdown">
+                        <a href="#" onclick="loadLeadershipYear('2025', true)">2025</a>
+                    </div>
+                </li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -83,7 +88,7 @@
 
         <!-- Leadership Section -->
         <div class="leadership-section" id="leadership">
-            <h2 class="leadership-title">Leadership</h2>
+            <h2 class="leadership-title" id="leadership-title">Leadership 2025</h2>
             <div class="leadership-container" id="leadership-container">
                 <!-- Leadership cards will be populated by JavaScript -->
             </div>

@@ -2,6 +2,13 @@
     "title": "If you're taking your first proof-based math course or just want to improve your proof-writing skills, sign up for our Introduction to Proofs workshop!",
     "material": [
         {
+            "week": 1,
+            "date": "September 12, 2025",
+            "time": "1:00 PM - 3:00 PM",
+            "pdf_link": "resources/pdfs/fall_2025/Proof_Workshop_Handout_Week_1.pdf",
+            "title": "Direct Proofs"
+        },
+        {
             "week": 2,
             "date": "September 19, 2025",
             "time": "1:00 PM - 3:00 PM",
@@ -22,6 +29,13 @@
             "time": "1:00 PM - 3:00 PM",
             "pdf_link": "resources/pdfs/fall_2025/Proof_Workshop_Handout_Week_4.pdf",
             "title": "Functions: Basic Definitions and Exercises"
+        },
+        {
+            "week": 5,
+            "date": "October 10, 2025",
+            "time": "1:00 PM - 3:00 PM",
+            "pdf_link": "resources/pdfs/fall_2025/Proof_Workshop_Handout_Week_5.pdf",
+            "title": "Quantifiers, Limits, Epsilon-Delta Proofs"
         }
     ]
 }

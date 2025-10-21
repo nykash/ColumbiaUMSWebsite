@@ -2,6 +2,7 @@
 let currentEvents = [];
 let currentSemester = '2025_fall';
 let nextLecture = null;
+let currentLeadershipYear = '2025';
 
 // Semester display names
 const semesterNames = {
@@ -299,6 +300,27 @@ function createCalendar(events = currentEvents) {
         // Create event element
         const eventDiv = document.createElement('div');
         eventDiv.className = 'calendar-event';
+        
+        // Add clickable class and handler if event has a link
+        if (event.link && event.link.trim() !== '') {
+            eventDiv.classList.add('calendar-event-clickable');
+            eventDiv.setAttribute('role', 'link');
+            eventDiv.setAttribute('tabindex', '0');
+            
+            const openLink = () => {
+                window.open(event.link, '_blank');
+            };
+            
+            eventDiv.onclick = openLink;
+            
+            // Add keyboard accessibility
+            eventDiv.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    openLink();
+                }
+            });
+        }
 
         eventDiv.innerHTML = `
             <div class="calendar-date">
@@ -328,58 +350,103 @@ function returnToFall2025() {
     });
 }
 
-// Function to load and display leadership
-async function loadLeadership() {
-    try {
-        const response = await fetch('data/leadership.json');
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
+// Function to load leadership for a specific year
+async function loadLeadershipYear(year, shouldScroll = true) {
+    return new Promise(async (resolve, reject) => {
+        try {
+            console.log(`Loading leadership for ${year}`);
+            
+            // Construct the file path
+            const filePath = `data/leadership_${year}.json`;
+            
+            // Fetch the JSON file
+            const response = await fetch(filePath);
+            
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            
+            const leaders = await response.json();
+            
+            currentLeadershipYear = year;
+            
+            // Update the title
+            const titleElement = document.getElementById('leadership-title');
+            if (titleElement) {
+                titleElement.textContent = `Leadership ${year}`;
+            }
+            
+            // Recreate the leadership cards
+            createLeadershipCards(leaders);
+            
+            // Only scroll to leadership section if requested
+            if (shouldScroll) {
+                document.querySelector('.leadership-section').scrollIntoView({ 
+                    behavior: 'smooth' 
+                });
+            }
+            
+            resolve(); // Resolve the promise on success
+            
+        } catch (error) {
+            console.error('Error loading leadership:', error);
+            const container = document.getElementById('leadership-container');
+            if (container) {
+                container.innerHTML = `
+                    <div style="text-align: center; padding: 2rem; color: #666;">
+                        <p>Sorry, we couldn't load the leadership information for ${year}.</p>
+                        <p style="font-size: 0.9rem; margin-top: 0.5rem;">Error: ${error.message}</p>
+                    </div>
+                `;
+            }
+            reject(error); // Reject the promise on error
         }
-        
-        const leaders = await response.json();
-        const container = document.getElementById('leadership-container');
-        
-        if (!container) return;
-        
-        // Clear existing content
-        container.innerHTML = '';
-        
-        // Create leadership cards
-        leaders.forEach(leader => {
-            const leaderCard = document.createElement('div');
-            leaderCard.className = 'leader-card';
-            
-            // Determine if image exists and is not empty
-            const hasImage = leader.image && leader.image.trim() !== '';
-            const imageHtml = hasImage 
-                ? `<div class="leader-image">
-                    <img src="${leader.image}" alt="${leader.name}">
-                   </div>`
-                : `<div class="leader-image leader-image-empty"></div>`;
-            
-            leaderCard.innerHTML = `
-                ${imageHtml}
-                <div class="leader-info">
-                    <h3 class="leader-name">${leader.name}</h3>
-                    <div class="leader-title">${leader.title}</div>
-                    ${leader.bio ? `<p class="leader-bio">${leader.bio}</p>` : ''}
-                </div>
-            `;
-            
-            container.appendChild(leaderCard);
-        });
-        
-    } catch (error) {
-        console.error('Error loading leadership:', error);
-        const container = document.getElementById('leadership-container');
-        if (container) {
-            container.innerHTML = `
-                <div style="text-align: center; padding: 2rem; color: #666;">
-                    <p>Sorry, we couldn't load the leadership information.</p>
-                </div>
-            `;
-        }
+    });
+}
+
+// Function to create leadership cards
+function createLeadershipCards(leaders) {
+    const container = document.getElementById('leadership-container');
+    
+    if (!container) return;
+    
+    // Clear existing content
+    container.innerHTML = '';
+    
+    // Check if leaders exist and is an array
+    if (!leaders || !Array.isArray(leaders) || leaders.length === 0) {
+        container.innerHTML = `
+            <div style="text-align: center; padding: 2rem; color: #666;">
+                <p>No leadership information found for this year.</p>
+            </div>
+        `;
+        return;
     }
+    
+    // Create leadership cards
+    leaders.forEach(leader => {
+        const leaderCard = document.createElement('div');
+        leaderCard.className = 'leader-card';
+        
+        // Determine if image exists and is not empty
+        const hasImage = leader.image && leader.image.trim() !== '';
+        const imageHtml = hasImage 
+            ? `<div class="leader-image">
+                <img src="${leader.image}" alt="${leader.name}">
+               </div>`
+            : `<div class="leader-image leader-image-empty"></div>`;
+        
+        leaderCard.innerHTML = `
+            ${imageHtml}
+            <div class="leader-info">
+                <h3 class="leader-name">${leader.name}</h3>
+                <div class="leader-title">${leader.title}</div>
+                ${leader.bio ? `<p class="leader-bio">${leader.bio}</p>` : ''}
+            </div>
+        `;
+        
+        container.appendChild(leaderCard);
+    });
 }
 
 // Function to load and display proof writing workshop
@@ -452,8 +519,8 @@ async function initCalendar() {
     // Load proof writing workshop section
     await loadProofWritingWorkshop();
     
-    // Load leadership section
-    await loadLeadership();
+    // Load leadership section (default to 2025)
+    await loadLeadershipYear('2025', false);
 }
 
 // Mobile nav toggle

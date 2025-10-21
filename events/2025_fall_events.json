@@ -3,43 +3,49 @@
     "date": "Sep 10",
     "speaker": "Carlos Alvarado",
     "title": "Vector Fields on Spheres",
-    "abstract": "We define what a vector field on a sphere is and then we discuss the question of how many linearly independent vector fields we can find."
+    "abstract": "We define what a vector field on a sphere is and then we discuss the question of how many linearly independent vector fields we can find.",
+    "link": "https://www.instagram.com/columbia.ums/p/DObJcCbDqs5/"
   },
   {
     "date": "Sep 17",
     "speaker": "Dr. Yoonjoo Kim",
     "title": "Limit of abelian varieties",
-    "abstract": "A complex torus is a 2n-dimensional torus (S^1)^2n equipped with an appropriate complex structure. An abelian variety is a special type of complex torus, and it has been an important object since its introduction to algebraic geometry. In this talk, we define these objects more properly and study how they degenerate into a possibly \"singular\" object in algebraic geometry."
+    "abstract": "A complex torus is a 2n-dimensional torus (S^1)^2n equipped with an appropriate complex structure. An abelian variety is a special type of complex torus, and it has been an important object since its introduction to algebraic geometry. In this talk, we define these objects more properly and study how they degenerate into a possibly \"singular\" object in algebraic geometry.",
+    "link": "https://www.instagram.com/columbia.ums/p/DOqndrtjrNk/"
   },
   {
     "date": "Sep 24",
     "speaker": "Amal Mattoo",
     "title": "Moduli Spaces and Stacks",
-    "abstract": "In algebraic geometry, a key method for studying families of objects is to find a space that parameterizes them in a geometrically meaningful way. We will explore this fundamental concept of a \"moduli space\" using simple examples from elementary geometry, also mentioning interesting problems that can be solved with such techniques. Then we will see some technical challenges that arise and give intuition for how the abstract notion of \"stacks\" can address them."
+    "abstract": "In algebraic geometry, a key method for studying families of objects is to find a space that parameterizes them in a geometrically meaningful way. We will explore this fundamental concept of a \"moduli space\" using simple examples from elementary geometry, also mentioning interesting problems that can be solved with such techniques. Then we will see some technical challenges that arise and give intuition for how the abstract notion of \"stacks\" can address them.",
+    "link": "https://www.instagram.com/columbia.ums/p/DO9uxkkDAKb/"
   },
   {
     "date": "Oct 1",
     "speaker": "Alex Scheffelin",
     "title": "Basic Algebraic Geometry and Plane Geometry",
-    "abstract": "As an introduction to the classical algebraic geometry from which modern algebraic geometry has evolved from, we will illustrate several classical theorems about plane curves."
+    "abstract": "As an introduction to the classical algebraic geometry from which modern algebraic geometry has evolved from, we will illustrate several classical theorems about plane curves.",
+    "link": "https://www.instagram.com/columbia.ums/p/DPPhCOaDMTn/"
   },
   {
     "date": "Oct 8",
     "speaker": "Fan Zhou",  
     "title": "Representation theory of symmetric groups versus symmetric functions",
-    "abstract": "It is a well-known fact that the Grothendieck ring of complex modules over symmetric groups is isomorphic to the ring of symmetric functions; in this talk we will begin by sketching a proof of this fact. Then I will point out the Jacobi-Trudi phenomenon, and introduce the degenerate affine Hecke algebra of rank 1 to realize this as a non-semisimple phenomenon. I will assume some basic familiarity with the representation theory of finite groups."
+    "abstract": "It is a well-known fact that the Grothendieck ring of complex modules over symmetric groups is isomorphic to the ring of symmetric functions; in this talk we will begin by sketching a proof of this fact. Then I will point out the Jacobi-Trudi phenomenon, and introduce the degenerate affine Hecke algebra of rank 1 to realize this as a non-semisimple phenomenon. I will assume some basic familiarity with the representation theory of finite groups.",
+    "link": "https://www.instagram.com/columbia.ums/p/DPfar5ZjCbv/"
   },
   {
     "date": "Oct 15",
     "speaker": "Johan de Jong",
-    "title": "TBD",
-    "abstract": "TBD"
+    "title": "About the Casas-Alvero Conjecture",
+    "abstract": "I will explain what the conjecture says and show that it holds for infinitely many degrees as was shown by Hans-Christian Graf von Bothmer, Oliver Labs, Josef Schicho, and Christiaan van de Woestijne.",
+    "link": "https://www.instagram.com/columbia.ums/p/DPzoUnfjM3d/"
   },
   {
     "date": "Oct 22",
-    "speaker": "N/A",
-    "title": "TBD",
-    "abstract": "TBD"
+    "speaker": "",
+    "title": "Trivia Night!",
+    "abstract": ""
   },
   {
     "date": "Oct 29",

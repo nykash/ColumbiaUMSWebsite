@@ -254,6 +254,15 @@ nav {
     margin-bottom: 0;
 }
 
+.calendar-event-clickable {
+    cursor: pointer;
+}
+
+.calendar-event-clickable:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 48px color-mix(in srgb, var(--theme-color) 30%, transparent);
+}
+
 .calendar-date {
     text-align: center;
     padding: 1rem;
