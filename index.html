@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="robots" content="max-image-preview:none">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Columbia Undergraduate Math Society</title>
     <link rel="stylesheet" href="styles.css">
@@ -18,21 +19,23 @@
                 <li class="dropdown">
                     <a href="#lectures">Lectures</a>
                     <div class="dropdown-content" id="lectures-dropdown">
-                        <a href="#" onclick="loadSemesterEvents('2025_fall', true)">Fall 2025</a>
-                        <a href="#" onclick="loadSemesterEvents('2025_summer', true)">Summer 2025</a>
-                        <a href="#" onclick="loadSemesterEvents('2025_spring', true)">Spring 2025</a>
-                        <a href="#" onclick="loadSemesterEvents('2024_fall', true)">Fall 2024</a>
-                        <a href="#" onclick="loadSemesterEvents('2024_summer', true)">Summer 2024</a>
-                        <a href="#" onclick="loadSemesterEvents('2024_spring', true)">Spring 2024</a>
-                        <a href="#" onclick="loadSemesterEvents('2023_summer', true)">Summer 2023</a>
-                        <a href="#" onclick="loadSemesterEvents('2023_spring', true)">Spring 2023</a>
+                        <!-- Dropdown items will be populated dynamically by JavaScript -->
                     </div>
                 </li>
-                <li><a href="#proofwriting">Proof Writing Workshop</a></li>
+                <li class="dropdown">
+                    <a href="#proofwriting">Proof Writing Workshop</a>
+                    <div class="dropdown-content" id="proofwriting-dropdown">
+                        <a href="#" onclick="loadProofWritingYear('2025', true)">2025</a>
+                        <a href="#" onclick="loadProofWritingYear('2024', true)">2024</a>
+                        <a href="#" onclick="loadProofWritingYear('2023', true)">2023</a>
+                        <a href="#" onclick="loadProofWritingYear('2022', true)">2022</a>
+                    </div>
+                </li>
                 <li class="dropdown">
                     <a href="#leadership">Leadership</a>
                     <div class="dropdown-content" id="leadership-dropdown">
                         <a href="#" onclick="loadLeadershipYear('2025', true)">2025</a>
+                        <a href="#" onclick="loadPreviousLeadership(true)">Previous Leadership</a>
                     </div>
                 </li>
                 <li><a href="#contact">Contact</a></li>

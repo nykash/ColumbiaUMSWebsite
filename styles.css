@@ -244,6 +244,10 @@ nav {
     align-items: start;
 }
 
+.calendar-event-centered {
+    align-items: center;
+}
+
 .calendar-event:hover {
     transform: translateY(-4px);
     box-shadow: 0 12px 36px color-mix(in srgb, var(--theme-color) 25%, transparent);
@@ -292,6 +296,12 @@ nav {
     padding-top: 0.25rem;
 }
 
+.calendar-content-centered {
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+}
+
 .calendar-content .title {
     font-size: 1.5rem;
     font-weight: 700;
@@ -324,6 +334,52 @@ nav {
 
 .calendar-content .abstract p:last-child {
     margin-bottom: 0;
+}
+
+.calendar-content-multiple {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.calendar-content-multiple .sub-event {
+    display: flex;
+    flex-direction: column;
+}
+
+.calendar-content-multiple .sub-event:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+.calendar-content-multiple .sub-event .title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 0.75rem;
+    font-family: "IBM Plex Serif", serif;
+}
+
+.calendar-content-multiple .sub-event .speaker {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--theme-color);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.calendar-content-multiple .sub-event .abstract {
+    color: #475569;
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: none;
+}
+
+.event-separator {
+    height: 1px;
+    background-color: color-mix(in srgb, var(--theme-color) 20%, transparent);
+    margin: 1.5rem 0;
 }
 
 @media (max-width: 768px) {
@@ -367,6 +423,20 @@ nav {
     min-height: 200px;
     display: flex;
     flex-direction: column;
+}
+
+.lecture-cards .card-no-button {
+    justify-content: center;
+    align-items: center;
+}
+
+.lecture-cards .card .card-content-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.lecture-cards .card.card-no-button .card-speaker {
+    margin-bottom: 0;
 }
 
 @media (max-width: 768px) {
@@ -544,6 +614,12 @@ nav {
     border-radius: 24px;
 }
 
+.proofwriting-section.section-highlight {
+    outline: 3px solid var(--theme-color);
+    outline-offset: 4px;
+    transition: outline-color 0.3s ease;
+}
+
 .proofwriting-title {
     text-align: center;
     font-size: 2.25rem;
@@ -667,6 +743,11 @@ nav {
     gap: 2rem;
 }
 
+/* Override grid layout when showing timeline (previous leadership) */
+.leadership-container:has(.timeline-year-section) {
+    display: block;
+}
+
 .leader-card {
     background: #ffffff;
     border-radius: 16px;
@@ -746,6 +827,101 @@ nav {
     .leader-image {
         width: 120px;
         height: 120px;
+    }
+}
+
+/* Previous Leadership Timeline Styles */
+.timeline-year-section {
+    margin-bottom: 3rem;
+}
+
+.timeline-year-section:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-year-header {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--theme-color);
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-family: "IBM Plex Serif", serif;
+    position: relative;
+    padding-bottom: 1rem;
+}
+
+.timeline-year-header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, transparent, var(--theme-color), transparent);
+    border-radius: 2px;
+}
+
+.timeline-cards-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.timeline-cards-single {
+    display: flex;
+    justify-content: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.timeline-leader-card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 6px 18px color-mix(in srgb, var(--theme-color) 15%, transparent);
+    border: 1px solid color-mix(in srgb, var(--theme-color) 30%, transparent);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    text-align: center;
+}
+
+.timeline-leader-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 36px color-mix(in srgb, var(--theme-color) 25%, transparent);
+    border-color: var(--theme-color);
+}
+
+.timeline-leader-role {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--theme-color);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.75rem;
+}
+
+.timeline-leader-name {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: #0f172a;
+    font-family: "IBM Plex Serif", serif;
+    line-height: 1.3;
+}
+
+@media (max-width: 768px) {
+    .timeline-cards-row {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .timeline-leader-card {
+        padding: 1.5rem;
+    }
+    
+    .timeline-year-header {
+        font-size: 1.75rem;
     }
 }
 

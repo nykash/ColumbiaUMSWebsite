@@ -15,7 +15,7 @@
     "date": "July 29",
     "speaker": "Yiming Song",
     "title": "Properties of Representations",
-    "abstract": ""
+    "abstract": "We go over some fundamentals of linear algebra before introducing the notion of representations, their basic properties, equivalent representations, kernels, and faithfulness. Then we introduce FG-modules, a concept closely related to representations which will be useful for further study."
   },
   {
     "date": "August 5th",
@@ -25,20 +25,14 @@
   },
   {
     "date": "August 12",
-    "speaker": "Maschke's Theorem, Schur's Lemma",
-    "title": "Zachary Lihn",
+    "speaker": "Zachary Lihn",
+    "title": "Maschke's Theorem, Schur's Lemma",
     "abstract": "We'll continue our study of FG-modules by quickly defining FG-module homomorphisms and their basic properties. We'll then discuss the important result known as Maschke's Theorem, which reduces our study of FG-modules to the irreducible ones. Finally, we'll prove Schur's Lemma, which (time permitting) will allow us to classify the representations of finite abelian groups over the complex numbers."
   },
   {
     "date": "August 19",
-    "speaker": "Characters, Orthogonality, and Some Physics",
-    "title": "Andrew Navruzyan",
+    "title": "Characters, Orthogonality, and Some Physics",
+    "speaker": "Andrew Navruzyan",
     "abstract": "We introduce and prove fundamental facts about characters and their orthogonality for groups, highlighting the general story on Lie groups. We also introduce Weyl's unitary trick in addition to giving connections of representation theory to general relativity and quantum mechanics. TBD"
-  },
-  {
-    "date": "August 26",
-    "speaker": "TBD",
-    "title": "TBD",
-    "abstract": ""
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "date": "September 11",
-    "speaker": "None",
+    "speaker": "",
     "title": "Introduction to UMS + Social Event",
     "abstract": ""
   },
@@ -14,48 +14,67 @@
   {
     "date": "September 25",
     "speaker": "Michael Harris",
-    "title": "What is the Langland's program about?",
+    "title": "What is the Langlands Program About?",
     "abstract": "The Langlands program orginally referred to a collection of conjectures proposed by Robert Langlands over 50 years ago to connect a wide range of mathematical concepts and structures, which has been highly influentical ever since. The talk will describe some of the mathematical problems that can be solved with the help of the Langlands program, or that fit under its umbrella. Most of these problems arise in number theory, but the applications, as well as the methods involve geometry, representaion theory, and harmonic analysis; there will even be a glimpse of quantum physics. The talk will also give a scope of how the Langlands program is constantly expanding."
   },
   {
     "date": "October 2nd",
-    "speaker": "Undergraduate Talks",
-    "title": "Cassidy Kao, Kate Mekechuk, Lisa Faulkner Valiente, Milena Harned, Pranav Konda, Felix Liu, Nikhil Mudumbi, Eric Shao, Tony Xiao",
-    "abstract": "Cassidy Kao: Cops and RobbersAbstract: The game of Cops and Robbers is a vertex-to-vertex pursuit game played on a reflexive graph. The goal is for the cop(s) to occupy the same vertex as the robber—if k cops have a strategy that always wins on a particular graph, we call this a k-cop win graph, and if k is the least number of cops needed, the graph has cop number k. The game has been well studied for undirected graphs. We investigate oriented graphs where each edge (or arc) can have one of the two possible orientations. Unlike non-directed graphs, there is no known intrinsic characterization of 1-cop win oriented graphs. In this presentation, we define a relational characterization of the class of cop-win oriented graphs in a manner analogous to the characterization provided by Nowakowski and Winkler (1983).Kate Mekechuk: Whitten and Morse theoryAbstract: Morse theory explores the topology of manifolds by studying their critical points. Moreover, one can derive inequalities between the manifold's critical points and its Betti numbers and Euler characteristic. In 1982, Edward Witten discovered how to connect Hodge theory to Morse theory through a supersymmetric analysis of differential forms. This allowed him to construct a new proof of Morse cohomology, a breakthrough in mathematical physics at the time. In this talk, I will present his argument as well as explore the relevant physics analysis that allowed Witten to have his mathematical insights.Lisa Faulkner Valiente: Extended Cup Homology of S^1 x \\Sigma_g Abstract: The Heegaard Floer homology is an important 3-manifold invariant, computed over the rationals by Ozsvath and Szabo and over F2 by Lidman. The work of Jabuka and Mark shows that over integers, the answer should be in terms of \"cup homology\", the homology of an exterior algebra of k-forms where the differential is given by wedging with a certain 3-form w3. Lin and Miller Eismeier compute the result to be \"extended cup homology\", whose differential is given instead by wedging with an odd form w3+w5+... They conjectured that the result should be isomorphic to cup homology, for any 3-form w3. We confirm this conjecture for the circle cross a g-holed torus, completing Jabuka and Mark's calculations. The proof is combinatorial, and uses a decomposition of the exterior algebra into subspaces determined by certain `\"pair-free subsets.\"Milena Harned, Pranav Konda, Felix Liu, Nikhil Mudumbi, Eric Shao, Tony Xiao: Error-correcting codes for quantum computing.Abstract: Error-correcting codes for quantum computing are crucial to address the fundamental problem of communication in the presence of noise and imperfections. Audoux used Khovanov homology to define families of quantum codes with desirable properties. In this project, we explored Khovanov homology and some of its many extensions, namely annular and sl(3) homology, in order to generate new families of quantum codes and to establish several properties of codes that arise in this way."
+    "events": [
+      {
+        "speaker": "Cassidy Kao",
+        "title": "Cops and Robbers",
+        "abstract": "The game of Cops and Robbers is a vertex-to-vertex pursuit game played on a reflexive graph. The goal is for the cop(s) to occupy the same vertex as the robber—if k cops have a strategy that always wins on a particular graph, we call this a k-cop win graph, and if k is the least number of cops needed, the graph has cop number k. The game has been well studied for undirected graphs. We investigate oriented graphs where each edge (or arc) can have one of the two possible orientations. Unlike non-directed graphs, there is no known intrinsic characterization of 1-cop win oriented graphs. In this presentation, we define a relational characterization of the class of cop-win oriented graphs in a manner analogous to the characterization provided by Nowakowski and Winkler (1983)."
+      },
+      {
+        "speaker": "Kate Mekechuk",
+        "title": "Witten and Morse Theory",
+        "abstract": "Morse theory explores the topology of manifolds by studying their critical points. Moreover, one can derive inequalities between the manifold's critical points and its Betti numbers and Euler characteristic. In 1982, Edward Witten discovered how to connect Hodge theory to Morse theory through a supersymmetric analysis of differential forms. This allowed him to construct a new proof of Morse cohomology, a breakthrough in mathematical physics at the time. In this talk, I will present his argument as well as explore the relevant physics analysis that allowed Witten to have his mathematical insights."
+      },
+      {
+        "speaker": "Lisa Faulkner Valiente",
+        "title": "Extended Cup Homology of S^1 x Sigma_g",
+        "abstract": "The Heegaard Floer homology is an important 3-manifold invariant, computed over the rationals by Ozsvath and Szabo and over F2 by Lidman. The work of Jabuka and Mark shows that over integers, the answer should be in terms of cup homology, the homology of an exterior algebra of k-forms where the differential is given by wedging with a certain 3-form w3. Lin and Miller Eismeier compute the result to be \"extended cup homology\", whose differential is given instead by wedging with an odd form w3+w5+... They conjectured that the result should be isomorphic to cup homology, for any 3-form w3. We confirm this conjecture for the circle cross a g-holed torus, completing Jabuka and Mark's calculations. The proof is combinatorial, and uses a decomposition of the exterior algebra into subspaces determined by certain 'pair-free' subsets."
+      },
+      {
+        "speaker": "Milena Harned, Pranav Konda, Felix Liu, Nikhil Mudumbi, Eric Shao, Tony Xiao",
+        "title": "Error-correcting Codes for Quantum Computing",
+        "abstract": "Error-correcting codes for quantum computing are crucial to address the fundamental problem of communication in the presence of noise and imperfections. Audoux used Khovanov homology to define families of quantum codes with desirable properties. In this project, we explored Khovanov homology and some of its many extensions, namely annular and sl(3) homology, in order to generate new families of quantum codes and to establish several properties of codes that arise in this way."
+      }
+    ]
   },
   {
     "date": "October 9",
     "speaker": "Fan Zhou",
-    "title": "Title: A different way to count: enumerative combinatorics via power series/generating functions",
+    "title": "A Different Way to Count: Enumerative Combinatorics via Power Series/Generating Functions",
     "abstract": "We will introduce and demonstrate the power of the theory of “combinatorial species”, a tool which will allow us to reduce a large class of difficult counting problems to operating with generating functions, or formal power series. This theory provides a precise framework to turn “English sentences” into equations of generating functions; in fancier language, this is because species provides a categorification of the ring of formal power series as endofunctors of the category of finite sets, or alternatively as set-valued representations of all symmetric groups. We will not spend very much time on fancy language — this talk is accessible to anyone who can count, manipulate polynomials, and maybe do some basic calculus."
   },
   {
     "date": "October 16",
-    "speaker": "Social",
-    "title": "None",
+    "speaker": "",
+    "title": "Social Event",
     "abstract": "We have a relaxing social event to decompress during midterms."
   },
   {
     "date": "October 23",
     "speaker": "Nicolas Vilches Reyes",
-    "title": "A tour on negative continued fractions",
+    "title": "A Tour on Negative Continued Fractions",
     "abstract": "Negative continued fractions are an exotic object. At a first glance, they seem like a silly modification of a well-known construction with positive signs. However, they are deeply connected with construction in other contexts, such as triangulations of polygons and cyclic quotient singularities. We will delve into their intricate properties and various open questions motivated from algebraic geometry."
   },
   {
     "date": "October 30",
-    "speaker": "Class Planning Panel",
-    "title": "Upperclassmen",
+    "speaker": "Upperclassmen",
+    "title": "Class Planning Panel",
     "abstract": "This week, we are holding a class planning panel, in which some upperclassmen will be answering questions in a panel about courses for the Spring 2025 semester and beyond. We will be answering pre-submitted questions from a Google form, but there will also be time for Q&A and one-on-one chatting with panelists."
   },
   {
     "date": "November 6",
     "speaker": "Raphael Tsiamis",
-    "title": "The geometry of mean curvature: minimal surfaces, singularity models, regularity",
+    "title": "The Geometry of Mean Curvature: Minimal Surfaces, Singularity Models, Regularity",
     "abstract": "The mean curvature of a surface is a notion used in differential geometry to describe the way it is embedded in ambient space. This concept of differential geometry arises in many aspects of nature related to surface tension and the physical interfaces of fluids. The study of mean curvature is tied to that of minimal surfaces, which have mean curvature equal to zero; in a sense, they are in equilibrium under “surface tension.” Minimal surfaces enjoy many important properties in terms of analysis, geometry, and topology. They arise in diverse fields, ranging from biology and physics to economics. In this talk, I will describe various key aspects, properties, and questions relating to the mean curvature of surfaces. These will include minimal surfaces, regularity of zero mean curvature varieties, and applications to fields such as economics. Time permitting, we will also introduce mean curvature flow and its singularity models - shrinkers, expanders, and translators."
   },
   {
     "date": "November 13",
-    "speaker": "N/A",
+    "speaker": "",
     "title": "Trivia Night!",
     "abstract": "This week, UMS will be having a math trivia night! People will form teams of 4-5 people and try to solve quick problems and answer questions about famous theorems, mathematicians, and math history. We hope to see you there!"
   },
@@ -74,7 +93,7 @@
   {
     "date": "December 4",
     "speaker": "Amadou Bah",
-    "title": "p-adic differential equations",
+    "title": "P-adic Differential Equations",
     "abstract": "I will introduce p-adic numbers and some of their properties. I will then explain how those properties lead to some remarkable features for the radius on convergence of solutions to p-adic differential equations. If I have time left, I may tell you about an analogous phenomenon for some l-adic local systems in rigid geometry."
   }
 ]

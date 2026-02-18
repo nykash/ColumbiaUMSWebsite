@@ -1,0 +1,47 @@
+[
+    {
+        "year": 2026,
+        "term": "spring",
+        "json_file": "2026_spring_events.json"
+    },
+    {
+        "year": 2025,
+        "term": "fall",
+        "json_file": "2025_fall_events.json"
+    },
+    {
+        "year": 2025,
+        "term": "summer",
+        "json_file": "2025_summer_events.json"
+    },
+    {
+        "year": 2025,
+        "term": "spring",
+        "json_file": "2025_spring_events.json"
+    },
+    {
+        "year": 2024,
+        "term": "fall",
+        "json_file": "2024_fall_events.json"
+    },
+    {
+        "year": 2024,
+        "term": "summer",
+        "json_file": "2024_summer_events.json"
+    },
+    {
+        "year": 2024,
+        "term": "spring",
+        "json_file": "2024_spring_events.json"
+    },
+    {
+        "year": 2023,
+        "term": "summer",
+        "json_file": "2023_summer_events.json"
+    },
+    {
+        "year": 2023,
+        "term": "spring",
+        "json_file": "2023_spring_events.json"
+    }
+]

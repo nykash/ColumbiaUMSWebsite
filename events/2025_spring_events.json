@@ -2,7 +2,7 @@
   {
     "date": "January 29",
     "speaker": "Simon Brendle",
-    "title": "The isoperimetric inequality",
+    "title": "The Isoperimetric Inequality",
     "abstract": "The isoperimetric inequality has a long history in mathematics, going back to the legend of Queen Dido. It is closely related to other important inequalities in analysis, such as the Sobolev inequality and the Brunn-Minkowski inequality. Many different proofs of the isoperimetric inequality have been found. These proofs employ a variety of techniques, including symmetrization, optimal mass transport, the ABP technique, and ideas from the calculus of variations. In this lecture, I will discuss some of these techniques, and explore connections to minimal surface theory."
   },
   {
@@ -19,56 +19,56 @@
   },
   {
     "date": "February 19",
-    "speaker": "N/A",
+    "speaker": "",
     "title": "Game Night!",
     "abstract": "This week, we will be having a game night! Available games include Uno, Exploding Kittens, multidimensional tic-tac-toe, and a standard card deck for your games of choice."
   },
   {
     "date": "February 26",
-    "speaker": "N/A",
+    "speaker": "",
     "title": "Social Event!",
     "abstract": "This week will just be a social dinner; we hope this gives you all a chance to decompress from midterm season!"
   },
   {
     "date": "March 5",
     "speaker": "Matthew Manchung Hase-Liu",
-    "title": "Physics, math, and puzzles",
+    "title": "Physics, Math, and Puzzles",
     "abstract": "I'll talk about some weird connections between physics, math, and puzzles. This will be interactive!"
   },
   {
     "date": "March 12",
     "speaker": "Dusa McDuff",
-    "title": "An introduction to symplectic topology",
+    "title": "An Introduction to Symplectic Topology",
     "abstract": "I will describe some of the basics of symplectic topology, and try to explain some kinds of problems that people work on today."
   },
   {
     "date": "March 19",
-    "speaker": "N/A",
+    "speaker": "",
     "title": "Spring Break",
-    "abstract": "N/A"
+    "abstract": ""
   },
   {
     "date": "March 26",
     "speaker": "Gyujin Oh",
-    "title": "Algebraic K-theory and number theory",
+    "title": "Algebraic K-theory and Number Theory",
     "abstract": "Grothendieck introduced K-theory to give meaning to formally subtract one object from another. For example, while you can take the (direct) sum of two vector spaces, there is no natural way to subtract one vector space from another. However, it turns out that simply allowing such formal operations is extremely useful. This notion (along with its “higher” analogues) has been generalized to various contexts; in particular, algebraic K-theory studies the K-theory of commutative rings. Surprisingly, despite its topological origins, algebraic K-theory has deep and unexpected connections--some conjectural, some proven--with number theory. I will explain what (algebraic) K-theory is and describe some of these connections."
   },
   {
     "date": "April 2",
     "speaker": "Mike Miller Eismeier",
-    "title": "Middle-dimensional topology: exotic notions of smoothness in 4D",
+    "title": "Middle-dimensional Topology: Exotic Notions of Smoothness in 4D",
     "abstract": "Continuous and smooth topology are the same in small dimensions, and the difference between them in high dimensions is governed by algebraic topology. I'll discuss the funny \"middle dimension\" 4, why it's so much less pleasant than its bigger or smaller siblings, and what this has to do with theoretical physics."
   },
   {
     "date": "April 9",
     "speaker": "Caglar Uyanik (guest speaker)",
-    "title": "Interactions between geometry and dynamics",
+    "title": "Interactions between Geometry and Dynamics",
     "abstract": "A dynamical system is a mathematical framework for studying “chaos”. This talk is a gentle introduction to the mathematical area of “dynamics” and how it interacts with geometry through explicit examples and constructions. We will find and certify chaotic behavior by just looking at matrices!"
   },
   {
     "date": "April 16",
     "speaker": "Sally Collins",
-    "title": "Grid homology",
+    "title": "Grid Homology",
     "abstract": "In this talk, we’ll explore how to represent mathematical knots - loops in 3-dimensional space that can twist and tangle but never break - in a simple, combinatorial format called a grid diagram. We’ll then build an invariant called grid homology, which captures deep geometric and topological information about knots, but can be read directly from our diagram. Along the way, we’ll briefly touch on the broader theory of Heegaard Floer homology and see how grid homology offers an accessible gateway into this powerful area of modern mathematics. We’ll also discuss how the grid approach is computationally advantageous without sacrificing any of the power of the invariant. This talk is aimed at a general undergraduate audience, with no prior experience in topology, algebra, or knot theory needed."
   },
   {
@@ -80,7 +80,7 @@
   {
     "date": "April 30",
     "speaker": "Daniela DeSilva",
-    "title": "A journey through the Calculus of Variations: From Bernoulli to Bernoulli",
+    "title": "A Journey through the Calculus of Variations: From Bernoulli to Bernoulli",
     "abstract": "Motivated by the classical Brachistochrone problem, we will explore some basic techniques of the Calculus of Variations and their evolution to deal with more complex minimization questions. We will touch upon free boundary problems which beautifully describe natural phenomena such as the formation of snowflakes or the melting of the ice."
   }
 ]

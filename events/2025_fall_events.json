@@ -9,7 +9,7 @@
   {
     "date": "Sep 17",
     "speaker": "Dr. Yoonjoo Kim",
-    "title": "Limit of abelian varieties",
+    "title": "Limit of Abelian Varieties",
     "abstract": "A complex torus is a 2n-dimensional torus (S^1)^2n equipped with an appropriate complex structure. An abelian variety is a special type of complex torus, and it has been an important object since its introduction to algebraic geometry. In this talk, we define these objects more properly and study how they degenerate into a possibly \"singular\" object in algebraic geometry.",
     "link": "https://www.instagram.com/columbia.ums/p/DOqndrtjrNk/"
   },
@@ -30,7 +30,7 @@
   {
     "date": "Oct 8",
     "speaker": "Fan Zhou",  
-    "title": "Representation theory of symmetric groups versus symmetric functions",
+    "title": "Representation Theory of Symmetric Groups versus Symmetric Functions",
     "abstract": "It is a well-known fact that the Grothendieck ring of complex modules over symmetric groups is isomorphic to the ring of symmetric functions; in this talk we will begin by sketching a proof of this fact. Then I will point out the Jacobi-Trudi phenomenon, and introduce the degenerate affine Hecke algebra of rank 1 to realize this as a non-semisimple phenomenon. I will assume some basic familiarity with the representation theory of finite groups.",
     "link": "https://www.instagram.com/columbia.ums/p/DPfar5ZjCbv/"
   },
@@ -44,37 +44,37 @@
   {
     "date": "Oct 22",
     "speaker": "",
-    "title": "Trivia Night!",
-    "abstract": ""
+    "title": "Game Night!",
+    "abstract": "Join us for a night of games!"
   },
   {
     "date": "Oct 29",
-    "speaker": "Francesco Lin",
-    "title": "TBD",
-    "abstract": "TBD"
+    "speaker": "Professor Francesco Lin",
+    "title": "You Cannot Hear the Shape of a Drum",
+    "abstract": "The goal of spectral geometry is to understand the relation between the geometry of shapes and the frequencies at which they can vibrate. After providing a general introduction to the subject, I will discuss concrete examples of planar domains (a.k.a. drums) that are isospectral, or, more informally, sound the same."
   },
   {
     "date": "Nov 5",
     "speaker": "James Hotchkiss",
-    "title": "TBD",
-    "abstract": "TBD"
+    "title": "The Grothendieck Ring of Varieties",
+    "abstract": "An algebraic variety is a set of solutions to a system of polynomial equations. There is a simple and amusing way to construct a commutative ring, called the Grothendieck ring of varieties, out of the set of all algebraic varieties. At first glance, the Grothendieck ring appears to be a simple party trick, but I will present a beautiful theorem of Larsen and Lunts showing that it is deeply connected with some old and difficult questions about algebraic varieties."
   },
   {
     "date": "Nov 12",
     "speaker": "Vidhu Adhihetty",
-    "title": "TBD",
-    "abstract": "TBD"
+    "title": "An introduction to Hodge Theory",
+    "abstract": "Hodge theory is one of the most active areas of algebraic geometry, with applications to many other fields of math as well. In this talk, we define the cohomology of topological spaces, and explain how (under suitable conditions) Hodge theory equips these vector spaces with more structure which better reflects the underlying geometry. Concretely, we will show how we can use Hodge theory to recover elliptic curves from the additional structure on their cohomology."
   },
   {
     "date": "Nov 19",
     "speaker": "Robert Bryant",
-    "title": "TBD",
-    "abstract": "TBD"
+    "title": "From Mechanics, to Algebra, to Geometry: The Notion of Holonomy",
+    "abstract": "Familiar mechanical phenomenon, such as driving and parking a car, rolling a ball, and even the ability of falling cats to land on their feet (usually) are examples of an underlying mathematical concept that, in the 19th century, became known as `holonomy'.  As it became better understood, mathematicians and physicists began to realize that holonomy underlies many different phenomena, from the everyday situations mentioned above to understanding the curvature of space in Einstein's theory of general relativity.  Currently, the notion of holonomy arises in both deep mathematical theories and high-energy physical theories, such as string theory and the still-mysterious M-theory, on which many theoretical physicists would like to base a 'theory of everything'. In this talk, after discussing some holonomic phenomena in everyday life, I'll explore their underlying commonality and their appearance in more advanced situations and try to provide some insight into why this idea has turned out to be so fundamental."
   },
   {
     "date": "Dec 3",
     "speaker": "",
     "title": "Social Event",
-    "abstract": ""
+    "abstract": "Let's have a relaxing social event to decompress before finals!"
   }
 ]

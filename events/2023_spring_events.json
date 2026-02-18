@@ -1,20 +1,20 @@
 [
   {
     "date": "February 1",
-    "speaker": "Aiden SagermanZachary Lihn",
-    "title": "Hyperplanes in Abelian Groups and Twisted SignaturesFrom Linear Algebra to Monoidal Categories and String Diagrams",
+    "speaker": "Aiden Sagerman and Zachary Lihn",
+    "title": "Hyperplanes in Abelian Groups and Twisted Signatures, From Linear Algebra to Monoidal Categories and String Diagrams",
     "abstract": "We investigate the following question: if A and A′ are products of finite cyclic groups, when does there exist an isomorphism f:A→A′ which preserves the union of coordinate hyperplanes (equivalently, so that f(x) has some coordinate zero if and only if x has some coordinate zero)? We show that if such an isomorphism exists, then A and A′ have the same cyclic factors; if all cyclic factors have order larger than 2, the map f is diagonal up to permutation, hence sends coordinate hyperplanes to coordinate hyperplanes. Thus one can recover the coordinate hyperplanes from knowledge of their union.In this talk, I’ll give a brief introduction to tensor (monoidal) categories using the important example of finite-dimensional vector spaces. I’ll show how a diagrammatic calculus known as string diagrams can be used to understand and generalize many constructions from linear algebra such as the tensor product and trace, and how these can be extended to categories like representations and manifolds."
   },
   {
     "date": "February 8",
     "speaker": "Akash Sengupta",
-    "title": "Rational points and rational curves on algebraic varieties",
+    "title": "Rational Points and Rational Curves on Algebraic Varieties",
     "abstract": "We will discuss how geometric properties of an algebraic variety determine its arithmetic behaviour such as existence and count of rational points. We will talk about some guiding conjectures and results in this direction."
   },
   {
     "date": "February 15",
     "speaker": "Inbar Klang",
-    "title": "Using graphs to study groups",
+    "title": "Using Graphs to Study Groups",
     "abstract": "Graphs, which consist of vertices and of edges between them, are well-studied in combinatorics. In this talk, we will discuss some ways in which graphs can be used to study groups. We will focus on the Cayley graph of a group, which is defined using a set of chosen generators of the group, and see how properties of the Cayley graph relate to properties of the group."
   },
   {
@@ -26,13 +26,13 @@
   {
     "date": "March 1",
     "speaker": "Dusa McDuff",
-    "title": "The symplectic embedding problem and rational curves",
+    "title": "The Symplectic Embedding Problem and Rational Curves",
     "abstract": "I will talk about my current project, that is concerned with constructing the kind of holomorphic curves that obstruct symplectic embeddings. I will begin with an introduction to the symplectic world, and try to explain how the obstructions work."
   },
   {
     "date": "March 8",
     "speaker": "Patrick Lei",
-    "title": "Algebraic curves and integrable hierarchies",
+    "title": "Algebraic Curves and Integrable Hierarchies",
     "abstract": "In the 1990s, a remarkable correspondence was discovered between the geometry of algebraic curves and infinite-dimensional systems of differential equations. The correspondence has its origin in the study of two-dimensional quantum field theories and is related to many different areas of mathematics. After introducing the relevant objects, I will then state the first result in this story, which was conjectured by Witten and proved by Kontsevich."
   },
   {
@@ -44,13 +44,13 @@
   {
     "date": "March 29",
     "speaker": "Rahul Ram",
-    "title": "Probabilistic ramifications of L^2 functions’ convergent Fourier series",
+    "title": "Probabilistic Ramifications of L^2 Functions’ Convergent Fourier Series",
     "abstract": "Carleson's theorem is a fundamental result establishing the almost everywhere convergence of square integrable functions’ Fourier series. In this talk, we'll discuss probabilistic stopping time arguments from a gambler's perspective by utilizing this theorem. I'll give a brief introduction to these ideas in Fourier analysis, their applications, and focus on how this result is the missing piece to the puzzle of the Law of Large Numbers being satisfied for these Fourier sums alongside other probabilistic priniciples."
   },
   {
     "date": "April 5",
     "speaker": "Weitao Zhu",
-    "title": "Directed polymers in random environment: phase transitions and fluctuations",
+    "title": "Directed Polymers in Random Environment: Phase Transitions and Fluctuations",
     "abstract": "Directed polymers in random environments (DPRE) have long been an interesting model to study for statistical physicists and mathematicians for their phase transition properties and path behaviours under different environments. In this talk, I will give a brief introduction to this topic and discuss some of the conjectures for these models."
   },
   {
@@ -62,7 +62,7 @@
   {
     "date": "April 19",
     "speaker": "Morena Porzio",
-    "title": "Obstructions to the existence of rational points on algebraic varieties",
+    "title": "Obstructions to the Existence of Rational Points on Algebraic Varieties",
     "abstract": "Many techniques have been adopted in order to prove whether or not a system of homogeneous polynomials (over a number field) admits a non-zero solution. We will focus on invariants whose non-vanishing gives an obstruction to the existence of solutions. In particular we will discuss the local-global principle and extension of coefficients, explaining positive results, counterexamples as well as open problems."
   },
   {

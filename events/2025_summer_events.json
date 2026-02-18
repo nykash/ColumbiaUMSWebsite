@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "date": "Jul 17",
+    "speaker": "UMS Officers",
+    "title": "Introduction",
+    "abstract": "We will first introduce Summer UMS and then decide on the logistics, topic, speakers, and general plan for this year's seminar. We will also be taking volunteers to give talks during the meeting. If you would like to give a talk or participate in the seminar in general but cannot attend this week, please email Joseph Rowland McGill."
+  },
+  {
+    "date": "Jul 24",
+    "speaker": "Yiming Song",
+    "title": "Waves and Fourier analysis",
+    "abstract": "We will motivate Fourier analysis with some fun, classical examples by thinking about waves. Then we will give a preview of some cool results and applications of Fourier analysis.",
+    "link": "https://www.youtube.com/watch?v=6SZMQOVHfx0"
+  },
+  {
+    "date": "Jul 31",
+    "speaker": "Jon Kwong",
+    "title": "On the Hows and Whys of the Fourier Series",
+    "abstract": "With the knowledge that functions can be decomposed into sums of sinusoids, the next most natural question would be how exactly we should take this sum. We tackle this question for periodic functions by defining the Fourier series and outline an important theorem which ensures the uniqueness of this series. We will also preface the next chapter by intuiting why the Fourier series properly approximates the given function, and in doing so, introduce the notions of convolution and the Dirichlet Kernel.",
+    "link": "https://youtu.be/ezf3b2Sy5LI"
+  },
+  {
+    "date": "Aug 7",
+    "speaker": "Sabrina Yu",
+    "title": "Convergence of Fourier Series",
+    "abstract": "With the knowledge of exactly how we can decompose functions into sums of sinusoids, the next most natural question would be does the Fourier series of a function actually converge to the function. And if they do, in what sense? We discuss two different types of convergence, mean-square (global) and pointwise (local), and the conditions under which each holds. We then highlight the limitations of continuity by constructing an explicit example of a continuous, periodic function whose Fourier series diverges at a point.",
+    "link": "https://youtu.be/nfmS02Ukxeg"
+  },
+  {
+    "date": "Aug 14",
+    "speaker": "Joseph McGill",
+    "title": "The Isoperimetric Problem and Formalizing Intuition",
+    "abstract": "We will look at the famous isoperimetric problem and examine how we would approach the problem intuitively. Then we will embark on the process of formalizing our intuition and constructing a 'proper' mathematical proof."
+  },
+  {
+    "date": "Aug 21",
+    "speaker": "Iz Tecúm-Ramos",
+    "title": "The Fourier Transform on the Real Line",
+    "abstract": "This talk introduces the Fourier transform as an extension of Fourier series to functions defined on the real numbers. We will discuss its basic properties, the Fourier inversion formula, and its role as a fundamental tool in analysis and applied mathematics."
+  },
+  {
+    "date": "Aug 28",
+    "speaker": "Eshan Kabir",
+    "title": "Applications of Fourier Transforms in Higher Dimensions",
+    "abstract": "This talk extends the definition of the Fourier transform into higher dimensions and discusses some of its applications. We will cover two primary examples in the wave equation and X-rays, and will explore how Fourier transforms are used in their proofs and methods."
+  }
+]

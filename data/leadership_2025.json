@@ -4,7 +4,7 @@
         "title": "President",
         "name": "Joseph McGill",
         "image": "resources/images/joseph.JPG",
-        "bio":"Hello, my name is Joseph McGill and I'm a junior in CC majoring in Math and Religious Studies. I love geometry, diffreential maps, and coffee. Outside of the math department you can find me cycling with the Columbia team and working through a stack of religious readings."
+        "bio":"Hello, my name is Joseph McGill and I'm a junior in CC majoring in Math and Religious Studies. I love geometry, differential maps, and coffee. Outside of the math department you can find me cycling with the Columbia team and working through a stack of religious readings."
     },
     {
         "title": "Vice President",
@@ -27,7 +27,7 @@
 
     {
         "title": "Social Media Manager",
-        "name": "Skylar Tien",
+        "name": "Skylar Tian",
         "image": "resources/images/skylar.JPG",
         "bio":"Hi I'm Skylar Tian, a freshman in CC who loves exploring both pure and applied mathematics. I'm especially interested in Fourier analysis and how math connects to music and physics. I also enjoy sharing the beauty of problem-solving with others!"
     },
