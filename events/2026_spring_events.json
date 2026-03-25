@@ -32,26 +32,26 @@
     {
       "date": "Feb 25",
       "speaker": "Michael Harris",
-      "title": "TBD",
-      "abstract": "TBD"
+      "title": "Answering the Question 'Why Do We Do Mathematics?' In the Age of AI",
+      "abstract": "My aim in this talk is to encourage students to share their thoughts about the constant stream of news about AI and mathematics.  To get the conversation started, I'll present some of the slides from a talk I gave last September at a conference at the Lorentz Center, in the Netherlands, with the title 'Mechanization and Mathematical Research.'  The conference brought together a very diverse group of about 40-50 participants:  philosophers, computer scientists, historians, and at least one anthropologist, as well as mathematicians from a number of countries, including two Fields Medalists.  Participants had very different ideas about what mathematicians can expect from AI, and whether or not it will change mathematics for the better, but everyone agreed that mathematicians need to be paying attention.  I'm curious to learn what Columbia undergraduates are saying."
     },
     {
       "date": "Mar 4",
       "speaker": "Noah Bergam",
-      "title": "TBD",
-      "abstract": "TBD"
+      "title": "Prizes and Perils of Data Visualization",
+      "abstract": "Visualizing a 10,000-point, 1,000-dimensional dataset in a 2-dimensional scatterplot is a bold pursuit. It is also common practice across various scientific fields. In this talk I’d like to convince you of two things: (1) data visualization is important, not just for the dissemination of science but the iterative process of exploratory data analysis and “interpretability.” (2) data visualization is hard on multiple levels. (2a) It is hard to formalize. Most notions of “success” in the metric embeddings literature are too restrictive and therefore too pessimistic to provide useful models. I will present some work towards improving this state of affairs. (2b) It is hard to do well in practice. I will present some work analyzing and formalizing the failure modes of t-SNE, one of the most prominent data visualization methods. This talk features content from forthcoming papers at ALT 2026 (“Compressibility Barriers to Neighborhood-Preserving Data Visualization”) and ICLR 2026 (“t-SNE exaggerates clusters, provably”)."
     },
     {
       "date": "Mar 11",
-      "speaker": "Senior Panel",
-      "title": "TBD",
-      "abstract": "TBD"
+      "speaker": "",
+      "title": "Senior Panel",
+      "abstract": ""
     },
     {
       "date": "Mar 25",
       "speaker": "Austin Lei",
-      "title": "TBD",
-      "abstract": "TBD"
+      "title": "Sampler of Probabilistic Problems in Number Theory",
+      "abstract": "In this talk, I will present a set of loosely related problems in analytic number theory, with the goal of highlighting the use of probabilistic heuristics and probabilistic models in solving and thinking about number theory.."
     },
     {
       "date": "Apr 1",
@@ -67,13 +67,13 @@
     },
     {
       "date": "Apr 15",
-      "speaker": "TBD",
+      "speaker": "Soren Galatius",
       "title": "TBD",
       "abstract": "TBD"
     },
     {
       "date": "Apr 22",
-      "speaker": "TBD",
+      "speaker": "Surprise Lecture!",
       "title": "TBD",
       "abstract": "TBD"
     },
